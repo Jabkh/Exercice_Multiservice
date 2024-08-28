@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="infrastructure_springdata" />
         <module name="shared" />
+        <module name="infrastructure_restclient" />
         <module name="rest_adapter" />
         <module name="starter_app" />
         <module name="domain" />
@@ -27,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="infrastructure_rest_client" options="-parameters" />
+      <module name="infrastructure_restclient" options="-parameters" />
       <module name="infrastructure_springdata" options="-parameters" />
       <module name="rest_adapter" options="-parameters" />
       <module name="starter_app" options="" />
